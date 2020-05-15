@@ -1,4 +1,4 @@
-import * as actionTypes from './actions';
+import * as actionTypes from '../actions/actionsTypes';
 
 const { ADD_INGREDIENT, REMOVE_INGREDIENT } = actionTypes;
 
