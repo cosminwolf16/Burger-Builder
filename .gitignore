@@ -1,7 +1,4 @@
 node_modules/
 config/
 scripts/
-firebase.json
-.firebasesrc
 build/
-firebase/
