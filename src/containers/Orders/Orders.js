@@ -7,7 +7,7 @@ import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';
 import * as actions from '../../store/actions/index';
 
 const Orders = (props) => {
-const {onFetchOrders} props;
+  const { onFetchOrders } = props;
 
   useEffect(() => {
     onFetchOrders(props.token, props.userId);
